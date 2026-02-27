@@ -49,7 +49,7 @@ module.exports = {
   "Life stuff": "生活琐事",
   "Learn": "学习",
   "Write": "写作",
-  "Claude's choice": "让 Claude 出主意",
+  "Claude’s choice": "让 Claude 出主意",
   "English (United States)": "简体中文",
   "Hide": "隐藏",
   "Recents": "最近对话",

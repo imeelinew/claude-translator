@@ -5,8 +5,7 @@ const path = require('path');
 
 const root = process.cwd();
 const sourcePath = path.resolve(root, 'claude-translator.js');
-const outDir = path.resolve(root, 'dist');
-const outPath = path.resolve(outDir, 'claude-translator.user.js');
+const outPath = path.resolve(root, 'claude-translator.js');
 const i18n = require(path.resolve(root, 'src/i18n'));
 
 function toJsLiteral(value, level = 0) {
@@ -74,7 +73,6 @@ const sourceCode = fs.readFileSync(sourcePath, 'utf8');
 const i18nLiteral = toJsLiteral(i18n, 0);
 const builtCode = replaceI18NBlock(sourceCode, i18nLiteral);
 
-fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(outPath, builtCode, 'utf8');
 
-console.log(`Built userscript: ${outPath}`);
+console.log(`Built userscript (in-place): ${outPath}`);

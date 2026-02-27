@@ -12,7 +12,7 @@
 - [x] `public.static` mirrored to `src/i18n/public-static.js`
 - [x] `chat/settings/login` data migration
 - [x] Single-file build script added: `scripts/build-userscript.js`
-- [x] Build artifact generated: `dist/claude-translator.user.js`
+- [x] Single-file in-place build supported: `claude-translator.js`
 
 ## Phase C
 - [x] Runtime constants centralized (`OBSERVED_ATTRIBUTES`, dynamic rule constants)
@@ -29,4 +29,4 @@
 ## Notes
 - Runtime still uses `claude-translator.js` only.
 - Runtime source of truth remains `claude-translator.js` until final cutover.
-- `dist/claude-translator.user.js` can be generated from modular i18n via build script.
+- `claude-translator.js` can be regenerated from modular i18n via build script.

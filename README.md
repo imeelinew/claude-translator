@@ -109,6 +109,14 @@ claude-translator/
 
 每次你改完翻译词条后，直接更新 `claude-translator.js` 到油猴即可。
 
+如果你改的是 `src/i18n/*`（例如 `public-static.js`），必须先执行：
+
+```bash
+node scripts/build-userscript.js
+```
+
+该命令会把词库同步写回 `claude-translator.js`（这个才是油猴自动更新用的主文件）。
+
 如果你采用 GitHub 自动更新：
 - 保证已从仓库 Raw 地址安装脚本；
 - 每次发布记得递增 `@version`。

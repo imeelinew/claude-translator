@@ -2,7 +2,7 @@
 // @name         Claude.ai 中文化插件
 // @namespace    https://github.com/yourname/claude-chinese
 // @description  中文化 Claude.ai 界面的菜单及内容
-// @version      0.2.3
+// @version      0.2.4
 // @author       你的名字
 // @license      GPL-3.0
 // @match        https://claude.ai/*
@@ -95,6 +95,28 @@
             "Yesterday": "昨天",
             "Past week": "一周前",
             "Show more": "显示更多",
+            "Do more with Claude, everywhere you work": "无论你在哪里工作，Claude 都能帮你把事情做得更好",
+            "Claude works in your files and browser tabs to help you get things done.": "Claude 可在你的文件和浏览器标签页中工作，帮助你高效完成任务。",
+            "Available for Pro and Max plans.": "适用于 Pro 和 Max 计划。",
+            "Only on desktop.": "仅限桌面端。",
+            "My downloads folder is a mess! Can you clean it up?": "我的下载文件夹一团糟！你能帮我整理一下吗？",
+            "Turn these receipts into an expense report": "把这些收据整理成一份报销单",
+            "Create a shopping list, go on Chrome, and make an order": "创建一个购物清单，打开 Chrome 并完成下单",
+            "Mobile": "移动端",
+            "Tap into your health data, notes, and reminders.": "访问你的健康数据、笔记和提醒事项。",
+            "Let's look at your latest runs and make a plan to trim some time.": "看看你最近的跑步记录，制定一个提升成绩的计划。",
+            "Read health data": "读取健康数据",
+            "Build, debug, and ship from your terminal or IDE.": "在终端或 IDE 中完成构建、调试和发布。",
+            "Terminal": "终端",
+            "Desktop app": "桌面应用",
+            "Microsoft Office": "Microsoft Office",
+            "Analyze data and build presentations with Claude alongside you.": "与 Claude 一起分析数据并制作演示文稿。",
+            "Claude navigates, clicks buttons, and fills forms in your browser. Works in Cowork.": "Claude 可在浏览器中进行页面导航、点击按钮并填写表单，并在协作模式中使用。",
+            "Start a return": "开始退货",
+            "Select reason": "选择原因",
+            "Confirmation": "确认",
+            "Changed my mind": "改变主意",
+            "Defective or damaged": "有缺陷或损坏",
             "Settings": "设置",
             "Code": "代码",
             "Life stuff": "生活琐事",

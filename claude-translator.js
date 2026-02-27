@@ -2,7 +2,7 @@
 // @name         Claude.ai 中文化插件
 // @namespace    https://github.com/yourname/claude-chinese
 // @description  中文化 Claude.ai 界面的菜单及内容
-// @version      0.2.1
+// @version      0.2.2
 // @author       你的名字
 // @license      GPL-3.0
 // @match        https://claude.ai/*

@@ -7,8 +7,8 @@
 // @license      GPL-3.0
 // @match        https://claude.ai/*
 // @icon         https://raw.githubusercontent.com/imeelinew/claude-translator/main/icon/claude-color.svg
-// @updateURL    https://raw.githubusercontent.com/imeelinew/claude-translator/main/dist/claude-translator.user.js
-// @downloadURL  https://raw.githubusercontent.com/imeelinew/claude-translator/main/dist/claude-translator.user.js
+// @updateURL    https://raw.githubusercontent.com/imeelinew/claude-translator/main/claude-translator.js
+// @downloadURL  https://raw.githubusercontent.com/imeelinew/claude-translator/main/claude-translator.js
 // @run-at       document-start
 // @grant        GM_getValue
 // @grant        GM_setValue

@@ -7,9 +7,9 @@
 - 兼容 Claude 的动态页面刷新（React 重绘后仍能持续翻译）；
 - 不影响聊天输入和模型输出正文（避免误翻译对话内容）。
 
-项目当前采用“单文件可用 + 模块化可维护”的方式：
-- 日常可直接使用 `dist/claude-translator.user.js`（单文件，适合安装）；
-- 开发维护可看 `claude-translator.js` 和 `src/i18n/*`（更清晰）。
+项目当前采用“单文件运行 + 模块化维护”的方式：
+- 运行与安装统一使用 `claude-translator.js`；
+- 词库维护可看 `src/i18n/*`（可选）。
 
 ---
 
@@ -19,12 +19,10 @@
 claude-translator/
 ├─ claude-translator.js                 # 主脚本（开发时可直接改）
 ├─ claude-translator.backup.phaseAB.js  # 备份文件
-├─ dist/
-│  └─ claude-translator.user.js         # 打包后的单文件（推荐安装这个）
 ├─ src/
 │  └─ i18n/                              # 拆分词库（可选维护方式）
 ├─ scripts/
-│  ├─ build-userscript.js                # 生成 dist 单文件
+│  ├─ build-userscript.js                # 历史构建脚本（可不使用）
 │  └─ check-duplicate-keys.js            # 检查重复 key
 └─ docs/
    ├─ REGRESSION_CHECKLIST.md
@@ -37,7 +35,7 @@ claude-translator/
 ## 快速使用
 
 1. 安装 Tampermonkey。
-2. 把 `dist/claude-translator.user.js` 内容复制进去保存。
+2. 把 `claude-translator.js` 内容复制进去保存。
 3. 打开 `https://claude.ai/` 刷新页面。
 
 ---
@@ -109,10 +107,8 @@ claude-translator/
 
 ## 每次修改后必做
 
-每次你改完翻译词条后，跑一次下面这条命令再去更新油猴脚本：
+每次你改完翻译词条后，直接更新 `claude-translator.js` 到油猴即可。
 
-```bash
-node scripts/build-userscript.js
-```
-
-然后使用生成的 `dist/claude-translator.user.js`。
+如果你采用 GitHub 自动更新：
+- 保证已从仓库 Raw 地址安装脚本；
+- 每次发布记得递增 `@version`。

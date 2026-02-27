@@ -1,5 +1,7 @@
 # Claude Translator（Claude.ai 中文化脚本）
 
+![项目截图](assets/download-page.png)
+
 这是一个给 `claude.ai` 使用的中文化用户脚本（Tampermonkey/Greasemonkey）。
 
 目标是：

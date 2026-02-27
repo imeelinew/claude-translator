@@ -2,7 +2,7 @@
 // @name         Claude.ai 中文化插件
 // @namespace    https://github.com/yourname/claude-chinese
 // @description  中文化 Claude.ai 界面的菜单及内容
-// @version      0.2.4
+// @version      0.2.5
 // @author       你的名字
 // @license      GPL-3.0
 // @match        https://claude.ai/*
@@ -109,6 +109,8 @@
             "Build, debug, and ship from your terminal or IDE.": "在终端或 IDE 中完成构建、调试和发布。",
             "Terminal": "终端",
             "Desktop app": "桌面应用",
+            "Download": "下载",
+            "Fix the auth bug in signup flow": "修复注册流程里的身份验证问题",
             "Microsoft Office": "Microsoft Office",
             "Analyze data and build presentations with Claude alongside you.": "与 Claude 一起分析数据并制作演示文稿。",
             "Claude navigates, clicks buttons, and fills forms in your browser. Works in Cowork.": "Claude 可在浏览器中进行页面导航、点击按钮并填写表单，并在协作模式中使用。",

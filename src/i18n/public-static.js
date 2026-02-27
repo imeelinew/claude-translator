@@ -58,10 +58,12 @@ module.exports = {
   "Tap into your health data, notes, and reminders.": "访问你的健康数据、笔记和提醒事项。",
   "Let's look at your latest runs and make a plan to trim some time.": "看看你最近的跑步记录，制定一个提升成绩的计划。",
   "Read health data": "读取健康数据",
-  
+
   "Build, debug, and ship from your terminal or IDE.": "在终端或 IDE 中完成构建、调试和发布。",
   "Terminal": "终端",
   "Desktop app": "桌面应用",
+  "Download": "下载",
+  "Fix the auth bug in signup flow": "修复注册流程里的身份验证问题",
 
   "Microsoft Office": "Microsoft Office",
   "Analyze data and build presentations with Claude alongside you.": "与 Claude 一起分析数据并制作演示文稿。",

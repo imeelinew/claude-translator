@@ -104,3 +104,15 @@ claude-translator/
 ```
 
 如果你不懂选择器，先抄已有规则，改英文目标词即可。
+
+---
+
+## 每次修改后必做
+
+每次你改完翻译词条后，跑一次下面这条命令再去更新油猴脚本：
+
+```bash
+node scripts/build-userscript.js
+```
+
+然后使用生成的 `dist/claude-translator.user.js`。

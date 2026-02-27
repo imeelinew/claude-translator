@@ -6,6 +6,7 @@
 // @author       你的名字
 // @license      GPL-3.0
 // @match        https://claude.ai/*
+// @icon         https://raw.githubusercontent.com/imeelinew/claude-translator/main/icon/claude-color.svg
 // @run-at       document-start
 // @grant        GM_getValue
 // @grant        GM_setValue

@@ -2,11 +2,13 @@
 // @name         Claude.ai 中文化插件
 // @namespace    https://github.com/yourname/claude-chinese
 // @description  中文化 Claude.ai 界面的菜单及内容
-// @version      0.2.0
+// @version      0.2.1
 // @author       你的名字
 // @license      GPL-3.0
 // @match        https://claude.ai/*
 // @icon         https://raw.githubusercontent.com/imeelinew/claude-translator/main/icon/claude-color.svg
+// @updateURL    https://raw.githubusercontent.com/imeelinew/claude-translator/main/dist/claude-translator.user.js
+// @downloadURL  https://raw.githubusercontent.com/imeelinew/claude-translator/main/dist/claude-translator.user.js
 // @run-at       document-start
 // @grant        GM_getValue
 // @grant        GM_setValue

@@ -2,7 +2,7 @@
 // @name         Claude.ai 中文化插件
 // @namespace    https://github.com/yourname/claude-chinese
 // @description  中文化 Claude.ai 界面的菜单及内容
-// @version      0.2.5
+// @version      0.2.6
 // @author       你的名字
 // @license      GPL-3.0
 // @match        https://claude.ai/*
@@ -304,7 +304,24 @@
             "Allow network egress": "允许网络访问",
             "Allow Claude to access common package managers to install packages and libraries for data analysis, visualizations, and file processing.": "允许 Claude 访问常见的软件包管理器，用于安装数据分析、可视化和文件处理所需的包和库。",
             "Skills have moved to Customize. Head to the new Customize page to manage your skills and connectors.": "Skills 已移至“自定义”。请前往新的“自定义”页面来管理你的 Skills 和 Connectors。",
-            "Go to Customize": "前往自定义"
+            "Go to Customize": "前往自定义",
+            "Memory": "记忆",
+            "Generate memory from chat history": "从聊天记录生成记忆",
+            "Allow Claude to remember relevant context from your chats. This setting controls memory for both chats and projects.": "允许 Claude 记住聊天中的相关上下文。此设置会同时控制聊天和项目中的记忆功能。",
+            "What does Claude know about you?": "Claude 目前了解你哪些信息？",
+            "Not much, yet. After more chats you’ll see what Claude knows about you here.": "目前还不多。随着聊天增多，你会在这里看到 Claude 了解的关于你的信息。",
+            "Import memory from other AI providers": "从其他 AI 服务导入记忆",
+            "Bring relevant context and data from another AI provider to Claude. We'll provide a prompt you can use to fetch the memory from your other account.": "将其他 AI 服务中的相关上下文和数据导入到 Claude。我们会提供一个提示词，你可以用它从其他账号获取记忆数据。",
+            "Start import": "开始导入",
+            "Tool access": "工具访问",
+            "Tool access mode": "工具访问模式",
+            "Controls how connector tools are loaded in new conversations.": "控制连接器工具在新对话中的加载方式。",
+            "Claude chooses for you.": "由 Claude 自动选择",
+            "On demand": "按需加载",
+            "Load when needed. More messages, lower accuracy": "需要时加载。可发送更多消息，但准确度较低",
+            "Always available": "始终可用",
+            "Ready from start. Fewer messages, better accuracy": "从一开始就加载。可发送消息较少，但准确度更高",
+            "Visuals": "界面展示"
         },
         "regexp": [],
         "selector": [
